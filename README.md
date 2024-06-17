@@ -4,11 +4,17 @@ This repository features a Power BI dashboard for visualizing the Top 50 Songs o
 
 ## Features
 
-- **Top Tracks Overview:** Explore the rankings of the top tracks with detailed metrics.
-- **Genre Analysis:** Analysis of songs by genre to see which types were most popular in 2019.
-- **Beats Per Minute (BPM) Insights:** Examine how the tempo influences the popularity of songs.
-- **Interactive Elements:** Users can interact with the dashboard to explore different dimensions like popularity, energy, danceability, and loudness of the tracks.
-- **Comparative Analysis:** Compare metrics across different songs to identify what makes a track successful on Spotify.
+- **ID**: The unique identifier for each track in the dataset.
+- **Track.Name**: Name of the track. This field represents the title of the song.
+- **Artist.Name**: Name of the artist who performed the track.
+- **Genre**: The genre of the track, categorizing the style of music.
+- **Beats.Per.Minute**: The tempo of the song, measured in beats per minute (BPM). A higher BPM indicates a faster pace.
+- **Energy**: Represents the energy of a song; higher values signify more energetic songs.
+- **Danceability**: Indicates how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. Higher values suggest that a song is easier to dance to.
+- **Loudness..dB..**: The average loudness of the track in decibels (dB). Higher values indicate louder tracks.
+- **Liveness**: Measures the likelihood that the track was performed live. A higher liveness value indicates a higher probability of the track being a live recording.
+- **Valence**: Describes the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g., happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g., sad, depressed, angry).
+
 
 ## Data Source
 
@@ -16,10 +22,4 @@ This dashboard utilizes the "Top 50 Songs on Spotify 2019" dataset available on 
 
 - [Dataset Link](https://www.kaggle.com/datasets/leonardopena/top50spotify2019)
 
-## Getting Started
 
-### Prerequisites
-
-To use this dashboard, make sure you have the following:
-- Power BI Desktop
-- Internet connection to download the dataset
