@@ -21,5 +21,6 @@ This repository features a Power BI dashboard for visualizing the Top 50 Songs o
 This dashboard utilizes the "Top 50 Songs on Spotify 2019" dataset available on Kaggle:
 
 - [Dataset Link](https://www.kaggle.com/datasets/leonardopena/top50spotify2019)
+![Screenshot 2024-09-19 165406](https://github.com/user-attachments/assets/763d1b23-67ff-4cd9-a0eb-74bdd975de3b)
 
 
